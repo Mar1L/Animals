@@ -1,0 +1,242 @@
+html{
+	font-weight: bolder;
+}
+h1{
+	color: white;
+	text-align: left;
+	font-style: initial;
+	font-weight: bolder;
+	font-size: 3em;
+	margin-left: 30%;
+}
+
+h1 img{
+	height: 1.2em;
+	padding-right: 20px;
+}
+
+.top{
+	width: 100%;
+	padding: 5px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 10;
+} 
+#navigation{
+	background: rgba(255, 255, 255, 0.2);
+	font-size: 1em;
+	font-weight: bolder;
+	font-family: sans-serif;
+	padding: 5px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	overflow-x: hidden;
+	text-align: center;
+}
+#navigation a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px 5px 20px;
+}
+
+#navigation a:hover{
+	color: #F0ACAC;
+	background: #B3F4F3;
+	border-radius: 0.2em;
+}
+
+body{
+	background-color: darkblue;
+	color: white;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	font-style: initial;
+	text-align: left;
+
+	font-family: sans-serif;
+	font-weight: bold;
+	
+	background-image: url("../img/2866128.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 180%;
+	
+}
+
+input[type="text"]{
+	margin: 0px 10px 10px 0px;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: center;
+	border-radius: 5px;
+}
+input[type="password"]{
+	margin: 0px 10px 10px 0px;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: center;
+	border-radius: 5px;
+}
+input[type="number"]{
+	margin: 0px 10px 10px 0px;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: center;
+	width: 23.2%;
+}
+
+.button {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: blue;
+	background-color: white;
+	text-decoration: none;
+	padding: 5px;
+	border: 0.1em outset lightblue;
+	border-radius: 0.2em;
+	width: 200px;
+}
+.button:active {
+	color: white;
+	background: blue;
+	border: 0.1em inset lightblue;
+}
+.updateButton {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: blue;
+	background-color: white;
+	text-decoration: none;
+	padding: 5px;
+	border: 0.1em outset lightblue;
+	border-radius: 0.2em;
+	width: 100px;
+}
+.updateButton:active {
+	color: white;
+	background: blue;
+	border: 0.1em inset lightblue;
+}
+
+#data{
+	margin-left: 20%;
+}
+
+#delete{
+	color: red;
+}
+#imageButton{
+	margin-left: -30px;
+}
+#changeName{
+	margin-left:  6.5%;
+}
+#nameButton{
+	margin-left:  5%;
+}
+#name, #name_error{
+	display:inline;
+}
+#gender, #genderButton{
+	display: inline;
+}
+#changeGender{
+	margin-left: 6.5%;
+}
+#genderButton{
+	margin-left:  4%;
+}
+#changeAge{
+	margin-left: 13%;
+}
+#ageButton{
+	margin-left:  5%;
+}
+#age, #age_error{
+	display:inline;
+}
+#changeEmail{
+	margin-left:  21%;
+}
+#emailButton{
+	margin-left:  4.7%;
+}
+#email, #email_error{
+	display:inline;
+}
+#changePassword{
+	margin-left:  0.7%;
+}
+#passwordButton{
+	margin-left:  4.7%;
+}
+#password, #password_error{
+	display:inline;
+}
+.error{
+	color: darkred;
+	
+}
+.error p{
+	color: darkred;
+}
+.warning p{
+	color: #FBF89C;
+}
+.ok p{
+	color: green;
+}
+.error input{
+	background-color: #f93e3e;
+}
+select{
+	color: black;
+}
+.error select{
+	background-color: #f93e3e;
+}
+.warning input{
+	background-color: yellow;
+}
+.ok input{
+	background-color: lightgreen;
+}
+.ok select{
+	background-color: lightgreen;
+}
+#picture{
+	border: 2px solid black;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+#picture:hover{
+	cursor:  pointer;
+	border: 2px inset white;
+}
+.Boy{
+	background-color: lightblue;
+}
+.Girl{
+	background-color: pink;
+}
+.Others{
+	background-color: white;
+	
+}
+#bestScore{
+	margin-top: -12%;
+	margin-left: 20%;
+}
+#bestScore th{
+	text-align: center;
+}
+#bestScore td{
+	text-align: center;
+	padding: 5px;
+}

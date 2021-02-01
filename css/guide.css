@@ -1,0 +1,17 @@
+body{
+	font-size: 1em;
+	color: black;
+	font-family: sans-serif;
+	text-align: left;
+	padding: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+	font-weight: bold;
+	background-color: lightblue;
+}
+
+h1{
+	color: darkred;
+	text-align: center;
+	font-weight: bold;
+}

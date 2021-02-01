@@ -1,0 +1,108 @@
+html{
+	font-weight: bold;
+	background-color: #30302d;
+}
+
+
+h1{
+	color: darkred;
+	text-align: center;
+	font-weight: bold;
+	font-size: 5em;
+}
+
+.top{
+	width: 100%;
+	padding: 5px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 10;
+} 
+#navigation{
+	background: rgba(255, 255, 255, 0.2);
+	font-size: 1em;
+	font-weight: bolder;
+	font-family: sans-serif;
+	padding: 5px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	overflow-x: hidden;
+	text-align: center;
+}
+#navigation a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px 5px 20px;
+}
+
+#navigation a:hover{
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 0.2em;
+}
+
+body{
+	background-color: black;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+
+fieldset{
+	border: none;
+	text-align: center;
+}
+
+legend{
+	font-size: 2em;
+	font-weight: bold;
+	color: darkred;
+	margin-left: 46%;
+	margin-bottom: 1em;
+}
+
+label{
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	
+}
+
+input{
+	border-radius: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0.5em; 
+}
+.button{
+	margin: 0.5em;
+	font-size: 1.5em;
+	color: darkred;
+	background-color: white;
+	text-decoration: none;
+	padding: 5px;
+	border: 0.1em outset lightgrey;
+	border-radius: 0.2em;
+	
+}
+.button:hover{
+	border: 0.1em outset lightblue;
+}
+.button:active{
+	color: red;
+	border: 0.1em inset lightgrey;
+}
+
+.ok{
+	background: lightgreen;
+}
+.error{
+	color: darkred;
+}

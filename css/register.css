@@ -1,0 +1,127 @@
+h1{
+	color: lightblue;
+	font-size: 2.5em;
+	margin-left: 0.4em;
+}
+body {
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-top: 3%;
+	background-image: url("../img/clouds5.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	
+}
+fieldset{
+	border: 0px;
+}
+legend {
+	color: lightblue;
+	font-size: 2em;
+	margin-left: 5px;
+}
+label {
+	color: aliceblue;
+	font-size: 1.5em;
+}
+.button {
+	font-size: 1.5em;
+	color: #f28ebb;
+	background: rgba(255, 255, 255, 0.8);
+	text-decoration: none;
+	padding: 5px;
+	border: 0.1em outset lightgrey;
+	border-radius: 0.2em;
+}
+.button:active {
+	color: #f28ebb;
+	background: rgba(255, 255, 255, 1);
+	border: 0.1em inset lightgrey;
+}
+input, select {
+	background-color: #FEFEE1;
+	border: 0.1em outset lightgrey;
+	border-radius: 0.3em;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#register_form a {
+	font-size: 1.5em;
+	color: whitesmoke;
+	text-decoration: none;
+}
+footer{
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 5px;
+  font-size: 1.5em;
+}
+footer div, p {
+	color: white;
+}
+footer a{
+	color: pink;
+	text-decoration: none;
+}
+#name, #name_error{
+	display:inline;
+}
+#age, #age_error{
+	display:inline;
+}
+#email, #email_error{
+	display:inline;
+}
+#password, #password_error{
+	display:inline;
+}
+#repeat_password, #repassword_error{
+	display:inline;
+}
+.error {
+	color: darkred;
+}
+.error p{
+	color: darkred;
+	font-size: 1.2em;
+	margin-left: 2em;
+}
+.normal p{
+	color: #FEFEE1;
+}
+.ok p{
+	color: green;
+}
+.error input{
+	background-color: #f93e3e;
+}
+select{
+	color: black;
+}
+.error select{
+	background-color: #f93e3e;
+}
+.normal input{
+	background-color: #FEFEE1;
+}
+.ok input{
+	background-color: lightgreen;
+}
+.ok select{
+	background-color: lightgreen;
+}
+#login{
+	background: rgba(100, 100, 100, 0.3);
+	border: 0.1em outset lightgrey;
+	padding: 5px;
+	margin-right: 70%;
+	border-radius: 0.2em;
+}
+#login:hover{
+	background: rgba(100, 100, 100, 0.5);
+}
