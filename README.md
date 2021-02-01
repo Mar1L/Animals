@@ -16,3 +16,5 @@ Questo progetto è stato creato per essere eseguito su una macchina con sistema 
 
 5) Per testare il progetto loggarsi come utente semplice (es: anna@gmail.com, anna123)
 6) per testare il progetto come amministratore loggarsi con le credenziali administrator@gmail.com, Admin01
+
+Informazioni sul copyright relativo alle immagini in html/terms_of_services.html
